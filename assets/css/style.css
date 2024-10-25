@@ -1,0 +1,46 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+.img{
+    background-image: url(../img/trem.svg);
+    background-repeat: no-repeat;
+    top: -7px;
+    height: 100vh;
+}
+
+.img, .container {
+    width: 50%;
+}
+
+body {
+    display: flex;
+}
+
+body .container{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+  
+}
+
+body .container .login {
+    padding: 35px;
+    gap: 26px;
+    border-radius: 10px ;
+    border: 0.5px solid #878787;
+    display: flex;
+    flex-direction: column;
+
+}
+    
+.email, .senha{ 
+    width: 423px;
+    height: 92px;
+}
