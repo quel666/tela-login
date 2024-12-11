@@ -24,7 +24,6 @@ body .container{
     gap: 10px;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
   
@@ -40,7 +39,7 @@ body .container .login {
 
 }
     
-.email, .senha{ 
-    width: 423px;
-    height: 92px;
-}
+   
+
+
+
